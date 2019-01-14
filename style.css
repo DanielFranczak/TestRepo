@@ -1,8 +1,9 @@
 body{
     background-color:#93b1cf;
     color: #000000;
+    
 }
 h1.welcome{
     text-align: center;
-    border: #ffffff 1px solid;
+    border: #000000 1px solid;
 }
