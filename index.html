@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="welcome">TESTING</h1>
+    <h1 class="welcome" id="willkomen">TESTING</h1>
     <h1>HEADINGS!</h1>
     <h1 id="heading1">This is heading number 1!</h1>
     <h2 id="heading2">This is heading number 2!</h1>
@@ -92,5 +92,35 @@
       <li>Internal CSS defined in the HEAD section.</li>
       <li>External style sheet in external file.</li>
     </ul>
+    <hr style="border-color:black;">
+    <h2>Links, links everywhere!</h2>
+    <p>Cat-opedia - everything what you ever want to know about cats</p>
+    <p>Click link below or click at the image with cat to go to this page!</p>
+    <a href="#willkomen">Go to the beggining of this page</a>
+    <a href="http://cat-opedia.com" target="_blank">Link to Cat-opedia.com</a>
+    <p>You can set the target attribute - place where the clicked link should open</p>
+    <ul>
+      <li>_blank - opens the linked document in new window or tab</li>
+      <li>_self - Opens the linked document in the same window/tab as it was clicked (this is default)</li>
+      <li>_parent - Opens the linked document in the parent frame</li>
+      <li>_top - opens the linked document in the full body of the window</li>
+      <li>framename - opens the linked document in a named frame</li>
+    </ul>
+    <p style="color:red;">Click  below! If you want to hide link in image, you should nest the img in a href</p>
+    <a href="http://cat-opedia.com" target="_blank">
+      <img src="kitty2.jpg" alt="Click here and move to cat-opedia">
+    </a>
+    <p>Styling, styling styling... If you want to style your link you can use appropriate properties in CSS to achieve it a:link, a:visited, a:hover, a:active let you to change style of your link</p>
+    <p>You can use external paths as href, look below to see poor cat which was stung by bee or wasp or whatever else! "Kurla dej mie karmy!" </p>
+    <a href="https://www.wykop.pl/cdn/c3201142/comment_yux4VcWy0S7Ok8yiGpwwHdLdKoe8vhhW.jpg" target="_blank">KURŁA TO PSZCZOŁA ŁOD SOMSIODA</a>
+    <hr style="border-color:black;">
+    <p>You can change different features of image e.g. height, width, saturation etc.</p>
+
+    <img id="sadCats" src="kitty3.jpg" alt="sad cat" >
+    <img id="sadCats" src="kitty3.jpg" alt="sad cat" >
+    <hr style="border-color:black;">
+    <p>You can add gif as image, look below</p>
+    <img src="kitty4.gif" alt="tamtaram tamtaram bonanza!" style="display: block; position: absolute; ">
+
 </body>
 </html>
